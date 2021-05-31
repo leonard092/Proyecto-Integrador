@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:url(../FONDOCIELO.jpg) no-repeat center top;
+    background-size: cover;
+    font-family:sans-serif;
+    height: 200vh;
+    width: 150vh;
+}
+
+main {
+    width: 330px;
+    height: 450px;
+    background-color:darkslategray;
+    color: white;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform:translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+}
