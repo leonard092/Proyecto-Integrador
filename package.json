@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-integrador",
+  "version": "1.0.0",
+  "description": "Proyecto integrador Curso de programación Digital House. Tienda energética Daphne",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonard092/Proyecto-Integrador.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonard092/Proyecto-Integrador/issues"
+  },
+  "homepage": "https://github.com/leonard092/Proyecto-Integrador#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
