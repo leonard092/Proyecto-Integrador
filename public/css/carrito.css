@@ -1,0 +1,98 @@
+body{
+    margin: 1vw;
+    padding-top: 15vw;
+    background:url(../img/sky.jpg) no-repeat center top;
+    background-size: cover;
+    font-family:sans-serif;
+    
+    color:darkslategrey;
+    display: flex;
+    height: 100%;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top: 50px;
+    left: calc(50% - 50px);
+       
+    }
+   
+
+.img-producto{
+    width: 200px;
+    height: 200px;
+}
+.box-total{
+    margin: 1vw;
+    padding: 1vw;
+    background-color: #FFEECC;
+    color: darkslategrey;
+    display:inline-flex;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    width: 100%;
+
+}
+.descripcion-prod{
+   margin: 05px;
+   box-sizing: border-box;
+   display: inline-block;
+   text-align:start;
+   line-height: 15%;
+   
+      
+}
+h4{
+    color: darkslategrey;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+.cantidad{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1vw;
+}
+
+.box-contacto{
+    margin: 01vw;
+    padding: 01vw;
+    background-color: #FFEECC;
+    color: darkslategrey;
+    display:inline-block;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    width: 100%;
+}
+.box-entrega{
+    margin: 01vw;
+    padding: 01vw;
+    background-color: #FFEECC;
+    color: darkslategrey;
+    display:inline-block;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    width: 100%;
+}
+
+.box-comprar{
+    text-align: right;
+    margin: 0;
+    padding: 05vw;
+    width: 95%;
+    
+}
+
+.botoncomprar{
+    background-color:#FFEECC ;
+    color: darkslategrey;
+    width: 10vw;
+    height: 5vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+}
