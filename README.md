@@ -14,3 +14,11 @@ https://pency.app/somosenergia
 https://www.laboticamilagrosa.com.ar/
 
 Link de github: https://github.com/leonard092/Proyecto-Integrador.git
+
+Link de Trello: https://trello.com/b/mnxn6K2R/proyecto-integrador
+
+Integrantes:
+
+1) Leonardo Galeano
+2) Mauro Tonelli
+3) Alejandro Guzman
