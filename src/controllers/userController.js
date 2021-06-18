@@ -1,7 +1,7 @@
 const userController = {
 
     registro: (req, res) => {
-        res.render("Registro")
+        res.render("registro")
     },
 
     login: (req, res) => {

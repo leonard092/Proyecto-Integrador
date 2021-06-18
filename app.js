@@ -22,9 +22,7 @@ app.use("/", homeRoutes);
 
 app.use("/carrito", carritoRoutes);
 
-app.use("/registro", usersRoutes);
-
-app.use("/login", usersRoutes);
+app.use("/usuario", usersRoutes);
 
 app.use("/producto", productsRoutes);
 
