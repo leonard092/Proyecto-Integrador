@@ -44,7 +44,24 @@ header{
 margin: auto;
 width: 90%;
 padding: 3%;
+display: inline-block;
 }
+
+.top-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    
+    }/* En esta sección se llama a las etiquetas "ul" para poder sacarle el estilo tipo lista*/
+.top-bar a{
+text-decoration: none;
+color: darkslategray;
+margin: auto;
+padding: 2px;
+
+} /* En esta sección se llama a las etiquetas "a" para poder sacarle la decoración*/
 
 
 
