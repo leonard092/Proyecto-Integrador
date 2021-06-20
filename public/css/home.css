@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -6,21 +12,68 @@ body {
     font-family:sans-serif;
 
 }
+
+.body-body{
+    padding: 3%;
+}
+
+p{
+    text-align: justify;
+}
 .logobox .avatar{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    position:absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-    }
-    /*EFECTO*/
+    margin: 5%;
+    
+    
+    
+    /*top: -50px;
+    left: calc(50% - 50px);*/
+}
+    /*EFECTO
     .logobox:hover .avatar {-webkit-transform:scale(1.3);transform:scale(1.3);transition:all .5s ease-in-out}
-    .logobox {overflow:hidden;}
+    .logobox {overflow:hidden;}*/
 
 .img-productos{
-    width: 150px;
+    width: 250px;
+    height: 250px;
     
-    
-
 }
+header{
+margin: auto;
+width: 90%;
+padding: 3%;
+}
+
+
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    font-size: 10px;
+    text-align:left;
+    display: flex;
+    padding: 3%;
+    
+}
+
+.end-page{
+    font-size: 11px;
+    text-align: left;
+    padding: 3%;
+    line-height: normal;
+}
+
+.fb{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+}
+
+.insta{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+}
+
