@@ -1,31 +1,51 @@
-<h1 class = "titulo01">Editar Producto</h1>
-      <br>
-      
-      <form>
-       
-       <label class = "label" for="codigo de producto">Sku</label>
-       <input class = "usua" type="text">
-       
-       <label class = "label" for="producto">Nombre del producto</label>
-       <input class = "usua" type="text">
-       
-       <label class = "label" for="descripcion">Descripción</label>
-       <input class = "usua" type="text">
-       
-       <label class = "label" for="categoria">Categoría</label>
-       <input class = "usua" type="text">
-       
-       <label class = "label" for="stock">Estado de inventario</label>
-       <label><input type="checkbox" id="enStock" value="enStock"> En stock</label><br>
-       <label><input type="checkbox" id="sinStock" value="sinStock"> Sin stock</label><br>     
-       
-       <label class = "label" for="precio">Precio</label>
-       <input class = "usua" type="number">
-       
-       <label class = "label" for="imagen">Cargar imagén</label>
-       <input class = "usua" type="file" accept="image/*" multiple>
-      
-       <input class = "botonsubmit" type="submit" value="Aceptar">
-       <input class = "botonreset" type="reset" value="Cancelar">
-       
-       </form>
+<!DOCTYPE html>
+
+
+<html>
+      <head>
+            <title>"Editar Producto"</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="/css/editarProducto.css" rel="stylesheet">
+      </head>
+
+      <body>
+
+            <%- include("./partials/header") %>
+            <h1 class = "titulo01">Crear Producto</h1>
+                  <br>
+                  <form class="formCrear">
+                  
+                  <input class = "usua" type="text">
+                  <label class = "label" for="codigo de producto">Sku</label>
+                  
+                  <input class = "usua" type="text">
+                  <label class = "label" for="producto">Nombre del producto</label>
+                  
+                  <input class = "usua" type="text">
+                  <label class = "label" for="descripcion">Descripción</label>
+                  
+                  <input class = "usua" type="text">
+                  <label class = "label" for="categoria">Categoría</label>
+                  
+                  <input class = "usua" type="number">
+                  <label class = "label" for="precio">Precio</label>
+                  <br>
+            
+                  <label class = "label" for="stock">Estado de inventario</label>
+                  <label id="enStock"><input type="checkbox" id="enStock" value="enStock"> En stock</label><br>
+                  <label id="sinStock"><input type="checkbox" id="sinStock" value="sinStock"> Sin stock</label><br>     
+                  <br>                  
+                  
+                  <label class = "label" for="imagen">Cargar imagén</label>
+                  <br>
+                  <input class = "usua2" type="file" accept="image/*" multiple>
+                  
+                  <br>
+                  <input class = "botonsubmit" type="submit" value="Crear">
+                  
+            </form>
+            <%- include("./partials/footer") %>
+      </body>
+
+</html>

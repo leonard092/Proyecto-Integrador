@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:url(../img/FONDOCIELO.jpg) no-repeat center top;
+    background-size: cover;
+    font-family:sans-serif;
+
+}
+
+header{
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+    display: inline-block;
+    }
+    
+    .top-bar ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin: auto;
+        
+        }/* En esta sección se llama a las etiquetas "ul" para poder sacarle el estilo tipo lista*/
+    .top-bar a{
+    text-decoration: none;
+    color: darkslategray;
+    margin: auto;
+    padding: 2px;
+    
+    }   
+    
+    footer{
+        background-color: darkslategray;
+        color: white;
+        font-size: 10px;
+        text-align:left;
+        display: flex;
+        padding: 3%;
+        
+    }
+    
+    .end-page{
+        font-size: 11px;
+        text-align: left;
+        padding: 3%;
+        line-height: normal;
+    }
+    
+    .fb{
+        width: 25px;
+        height: 25px;
+        padding: 1%;
+    }
+    
+    .insta{
+        width: 25px;
+        height: 25px;
+        padding: 1%;
+    }
+
+
+
+    .logobox .avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 5%;
+    }
+
+    .formCrear {
+
+        padding: 2%;
+        text-align: center;
+        width: 80%;
+        background-color: darkslategray;
+        border-radius: 30px;
+        position: relative;
+        left: 8%;
+        bottom: 35px;
+
+    }
+
+    .label{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+        color: #FFEECC;
+    
+    }
+
+    .usua{
+
+        border: none;
+        border-bottom: 1px solid #FFEECC;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color:#FFEECC;
+        font-size: 16px;
+        width: 80%;
+    
+    }
+
+    .usua2{
+
+        border: none;
+        color: #FFEECC;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color:#FFEECC;
+        font-size: 16px;
+        width: 60%;
+    
+    }
+
+    #enStock {
+        color:#FFEECC;
+    }
+
+    #sinStock {
+
+        color:#FFEECC;
+    }
+
+    h1 {
+        text-align: center;
+        color:darkslategray;
+    } 
+
+    .botonsubmit{
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #FFEECC;
+        font-size: 18px;
+        border-radius: 20px;
+    
+    }
+
+    
