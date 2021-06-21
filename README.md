@@ -21,4 +21,3 @@ Integrantes:
 
 1) Leonardo Galeano
 2) Mauro Tonelli
-3) Alejandro Guzman

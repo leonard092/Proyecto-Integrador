@@ -8,9 +8,6 @@ const productsController = {
         res.render("crearProducto")
     },
 
-    detalleProducto: (req, res) => {
-        res.render("detalleProducto")
-    },
 
     editarProducto: (req, res) => {
         res.render("editarProducto")
