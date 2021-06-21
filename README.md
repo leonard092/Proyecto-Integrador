@@ -1,7 +1,7 @@
 # Proyecto-Integrador
 Proyecto integrador Curso de programación Digital House. Tienda energética Daphne
 
-Temática y descripción del sitio: el E-commerce que crearemos va a ser una tienda de productos de limpieza energética y salud espiritual. La página va a permitirles a los clientes poder comprar una gran varedad de productos, los cuales tendran instructivos de como utilizarlos y sus propiedades en la misma página.
+Temática y descripción del sitio: el E-commerce que crearemos va a ser una tienda de productos de limpieza energética y salud espiritual. La página va a permitirles a los clientes poder comprar una gran variedad de productos, los cuales tendran instructivos de como utilizarlos y sus propiedades en la misma página.
 
 Público objetivo: toda persona con interes en limpiar su energía y la de sus hogares. También habrá productos que ayuden a la ansiedad, nervios y otros sintomas regulares en época de pandemia y los tiempos que vivimos.
 

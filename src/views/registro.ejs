@@ -6,22 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href= "/css/Registro.css" rel="stylesheet">
  </head>
+ <img class = "avatar" src="../img/LOGO.jpg" alt="Logo de prueba">
  <%- include("./partials/header") %>
 
  <body>
-     
-
-
- <main>
-
- </main>
-
- <section>
+   
+ <section class="body02">
    
      
      
     <div>
-        <img class = "avatar" src="../public/img/LOGO.jpg" alt="Logo de prueba">
+        
 
         <h1>Crear Cuenta</h1>
      <form action="Registro">
@@ -38,8 +33,10 @@
          <label for="Contraseña">Contraseña</label>
          <input type="password" name="Clave" id="Clave" required>
          <br>
+         <div class="check">
          <label for="CRM">Deseo recibir promociones y noticias</label>
          <input type="checkbox" name="CRM" value="CRM">
+         </div>
          
          <button>Crear cuenta</button>
      </form>

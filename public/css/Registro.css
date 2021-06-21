@@ -4,13 +4,39 @@ body{
     background:url(../img/FONDOCIELO.jpg) no-repeat center top;
     background-size: cover;
     font-family:sans-serif;
-    height: 100vh;
+    
     flex-direction: column;
+    
 }
 
+.body02{
+    padding: 3%;
+}
 
+header{
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+    display: inline-block;
+    }
+    
+    .top-bar ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin: auto;
+        
+        }/* En esta sección se llama a las etiquetas "ul" para poder sacarle el estilo tipo lista*/
+    .top-bar a{
+    text-decoration: none;
+    color: darkslategray;
+    margin: auto;
+    padding: 2px;
+    
+    } /* En esta sección se llama a las etiquetas "a" para poder sacarle la decoración*/
 
-div {
+/*div {
     width: 330px;
     height: 470px;
     border-radius: 10%;
@@ -18,28 +44,29 @@ div {
     color: white;
     top: 53%;
     left: 50%;
-    position: absolute;
+    position:absolute;
     transform:translate(-50%, -50%);
     box-sizing: border-box;
     padding: 50px 30px;
     
-}
+}*/
 
 
-h1 {
-    color: #FFEECC;
+
+
+.check{
+    display: inline-block;
 }
 
 img {
     
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        position:absolute;
-        top: -50px;
-        left: calc(50% - 50px);
-        
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5%;
 }
+
+    
 
 form {
     display: flex;
@@ -50,10 +77,12 @@ button {
     border: none;
     outline: none;
     height: 40px;
-    background: #FFEECC;
+    background: darkslategrey;
     font-size: 18px;
     border-radius: 20px;
-    padding: 2%;
+    padding: 0;
+    color: #FFEECC;
+
 }
 
 label {
@@ -62,4 +91,31 @@ label {
 }
 
 
+footer{
+    background-color: darkslategray;
+    color: white;
+    font-size: 10px;
+    text-align:left;
+    display: flex;
+    padding: 3%;
+    
+}
 
+.end-page{
+    font-size: 11px;
+    text-align: left;
+    padding: 3%;
+    line-height: normal;
+}
+
+.fb{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+}
+
+.insta{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+}

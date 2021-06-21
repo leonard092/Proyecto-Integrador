@@ -4,11 +4,8 @@ body{
     background:url(../img/FONDOCIELO.jpg) no-repeat center top;
     background-size: cover;
     font-family:sans-serif;
-    
     color:darkslategrey;
-    display: flex;
-    height: 100%;
-}
+    }
 
 .avatar{
     width: 100px;
@@ -17,9 +14,8 @@ body{
     position:absolute;
     top: 50px;
     left: calc(50% - 50px);
-    
     }
-/*EFECTO*/
+
 .logoencarrito:hover .avatar {-webkit-transform:scale(1.3);transform:scale(1.3);transition:all .5s ease-in-out}
 .logoencarrito {overflow:hidden;}
 
@@ -97,4 +93,33 @@ a{
     height: 5vw;
     border-radius: 2vw;
     font-size: 2vw;
+}
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    font-size: 10px;
+    text-align:left;
+    display: flex;
+    padding: 3%;
+    
+}
+
+.end-page{
+    font-size: 11px;
+    text-align: left;
+    padding: 3%;
+    line-height: normal;
+}
+
+.fb{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+}
+
+.insta{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
 }
