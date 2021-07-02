@@ -1,0 +1,20 @@
+[
+    {
+     "id": "pepe02",
+     "name": "Pedro",
+     "last name": "Perez",
+     "email": "pepe02@gmail.com",
+     "date": "visited",
+     "password": "********",
+     "telefono": 12380123
+    },
+    {
+        "id": "pepe02",
+        "name": "Pedro",
+        "last name": "Perez",
+        "email": "pepe02@gmail.com",
+        "date": "visited",
+        "password": "********",
+        "telefono": 12380123
+       }
+]       
