@@ -1,4 +1,4 @@
-/*body {
+body {
     margin: 0;
     padding: 0;
     background:url(../img/FONDOCIELO.jpg) no-repeat center top;
@@ -23,7 +23,8 @@ section.productos {
     text-align: center;
     margin-left: 645px;
     margin-top: 15px;
-
+    position: relative;
+    
 }
 
 #imagenProducto {
@@ -74,7 +75,7 @@ footer {
   text-align: center;
   
   
-}*/
+}
 
 *{
     box-sizing: border-box;
