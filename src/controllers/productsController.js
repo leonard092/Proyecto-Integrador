@@ -64,14 +64,9 @@ const productsController = {
             }
         }
         res.render("detail", {productoEnDetalle : productoEncontrado});
-    },
-
-    
+    }
 
         
-
-    
-    
 };
 
 module.exports = productsController;

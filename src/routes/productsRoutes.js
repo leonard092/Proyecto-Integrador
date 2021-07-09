@@ -7,6 +7,8 @@ router.get("/producto/:id", productsController.productos);
 
 router.get("/crearProducto", productsController.crearProducto);
 
+router.get('/detail/:id', productsController.detail); 
+
 router.post("/crearProducto", productsController.store);
 
 router.get("/editarProducto/:id", productsController.editarProducto);
@@ -14,6 +16,8 @@ router.get("/editarProducto/:id", productsController.editarProducto);
 router.put("/editarProducto/:id", productsController.edit);
 
 router.delete('/:id', productsController.destroy); 
+
+
 
 
 
