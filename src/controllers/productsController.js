@@ -3,8 +3,6 @@ const path = require ("path");
 const productsFilePath = path.join(__dirname, '../data/products.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
-
-
 const productsController = {
 
     productos: (req, res) => {
@@ -68,7 +66,6 @@ const productsController = {
 
         
 };
-
 module.exports = productsController;
 
 
