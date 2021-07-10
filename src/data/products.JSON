@@ -4,18 +4,45 @@
      "name": "PORTA-SAHUMERIO CERÁMICA",
      "price": 450,
      "discount": 5,
-     "category": "visited",
+     "category": "DECO Y REGALERÍA",
      "description": "COLORES: Rosa - Verde - Violeta",
-     "image": ""
+     "image": "Sahumerios.jpg"
     },
     {
      "id": 2,
      "name": "ESENCIAS AROMÁTICAS",
      "price": 130,
      "discount": 5,
-     "category": "in-sale",
+     "category": "ESENCIAS Y PERFUMES",
      "description": "Ambar - Frutal - Fresia - Coco - Citronella - Jazmín",
-     "image": ""
+     "image": "Sahumerios.jpg"
+    },
+    {
+     "id": 3,
+     "name": "KIT MÁGICO - LIMPIEZA / MEDITACIÓN",
+     "price": 950,
+     "discount": 5,
+     "category": "KITS - BOX - COMBOS",
+     "description": "Armados según nuestra recomendación. CONTIENE: 1 Sahumador, 8 Sahumerios, 4 Bombitas Defumación, 2 Velas Aromáticas, 1 Sahumo Natural y 1 instructivo para sahumar.",
+     "image": "Sahumerios.jpg"
+    },
+    {
+     "id": 4,
+     "name": "KIT 7 CHAKRAS",
+     "price": 750,
+     "discount": 5,
+     "category": "KITS - BOX - COMBOS",
+     "description": "CONTIENE: 7 Velas Aromáticas 7 Chakras, 7 Bombitas Defumación y 7 Sahumerios Triple Empaste.",
+     "image": "Sahumerios.jpg"
+    },
+    {
+     "id": 5,
+     "name": "CASCADA PARED",
+     "price": 350,
+     "discount": 5,
+     "category": "DECO Y REGALERÍA",
+     "description": "Ambar - Frutal - Fresia - Coco - Citronella - Jazmín",
+     "image": "Sahumerios.jpg"
     }
 ]   
 
