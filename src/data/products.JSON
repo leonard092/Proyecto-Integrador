@@ -6,7 +6,7 @@
      "discount": 5,
      "category": "DECO Y REGALERÍA",
      "description": "COLORES: Rosa - Verde - Violeta",
-     "image": "Sahumerios.jpg"
+     "image": "Sahumerios.JPG"
     },
     {
      "id": 2,
@@ -15,7 +15,7 @@
      "discount": 5,
      "category": "ESENCIAS Y PERFUMES",
      "description": "Ambar - Frutal - Fresia - Coco - Citronella - Jazmín",
-     "image": "Sahumerios.jpg"
+     "image": "Sahumerios.JPG"
     },
     {
      "id": 3,
@@ -24,7 +24,7 @@
      "discount": 5,
      "category": "KITS - BOX - COMBOS",
      "description": "Armados según nuestra recomendación. CONTIENE: 1 Sahumador, 8 Sahumerios, 4 Bombitas Defumación, 2 Velas Aromáticas, 1 Sahumo Natural y 1 instructivo para sahumar.",
-     "image": "Sahumerios.jpg"
+     "image": "Sahumerios.JPG"
     },
     {
      "id": 4,
@@ -33,7 +33,7 @@
      "discount": 5,
      "category": "KITS - BOX - COMBOS",
      "description": "CONTIENE: 7 Velas Aromáticas 7 Chakras, 7 Bombitas Defumación y 7 Sahumerios Triple Empaste.",
-     "image": "Sahumerios.jpg"
+     "image": "Sahumerios.JPG"
     },
     {
      "id": 5,
@@ -42,7 +42,7 @@
      "discount": 5,
      "category": "DECO Y REGALERÍA",
      "description": "Ambar - Frutal - Fresia - Coco - Citronella - Jazmín",
-     "image": "Sahumerios.jpg"
+     "image": "Sahumerios.JPG"
     }
 ]   
 

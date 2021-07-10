@@ -15,8 +15,11 @@ productsRoutes = require("./src/routes/productsRoutes.js");
 usersRoutes = require("./src/routes/usersRoutes.js");
 
 
-app.listen(3040, () =>
-console.log("servidor corriendo"));
+//app.listen(3040, () =>
+//console.log("servidor corriendo"));
+app.listen(process.env.PORT || 3000, function() {
+    console.log("Servidor Corriendo")
+});
 
 app.use("/", homeRoutes);
 
